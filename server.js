@@ -7,8 +7,8 @@ const jobs = require('./routes/api/jobs');
 const app = express(); 
 
 // middleware 
-
-app.use('*', cors()); 
+app.use('*', cors());
+app.use(express.json({extended: false})) 
 
 const PORT = process.env.PORT || 5000; 
 

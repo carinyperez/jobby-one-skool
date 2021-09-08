@@ -1,5 +1,4 @@
 import SearchBar from "../components/search-bar/search-bar.components";
-import { useState, useEffect } from "react";
 
 const SearchPage = () => {
     return (
@@ -9,7 +8,6 @@ const SearchPage = () => {
     )
 
 }
-
 
 export default SearchPage; 
 
