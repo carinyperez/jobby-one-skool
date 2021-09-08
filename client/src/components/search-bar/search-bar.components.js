@@ -22,10 +22,6 @@ const SearchBar = () => {
         .catch(err => console.error(err.message));
     }
 
-    // useEffect(() => {
-    //     query && apiJobRequest(query);
-    // }, [])
-
     return (
         <div>
             <form>
